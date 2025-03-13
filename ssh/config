@@ -1,0 +1,30 @@
+
+Host x299-torch
+  HostName 172.18.216.209
+  User root
+  Port 10919
+  
+
+Host tecent-server
+  HostName 43.138.253.221
+  User root
+  Port 22
+
+Host x299-lpt
+  SetEnv TERM=xterm-256color
+  HostName 172.18.216.209 
+  User lpt
+  Port 22
+  ServerAliveInterval 600      
+  ServerAliveCountMax 100
+  TCPKeepAlive yes
+
+Host x299-cwh
+  HostName 172.18.216.209
+  User wuhui
+  Port 22
+
+Host t630-lpt
+  HostName 172.18.219.76
+  User lpt
+  Port 22
